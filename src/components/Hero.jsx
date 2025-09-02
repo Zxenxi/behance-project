@@ -2,7 +2,8 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="text-white text-center py-20 px-6">
+    // Add the animation class to the main div
+    <div className="text-center py-20 px-6 animate-fadeInUp">
       <h1 className="text-5xl md:text-7xl font-bold mb-4">
         Creative Digital Agency
       </h1>
